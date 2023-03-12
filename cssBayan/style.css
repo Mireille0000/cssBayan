@@ -1,13 +1,25 @@
-.main {
-    text-align: center;
+.meme1, .meme2, .meme3, .meme4 {
+    /* display: flex; */
+    justify-content: space-between;
+    cursor: pointer;
 }
 
-.meme_block {
-    display: none;
+.plus {
+    width: 15px;
+	height: 15px;
+	background: linear-gradient(to bottom, transparent 35%, #000 35%, #000 65%, transparent 65%), linear-gradient(to right, transparent 35%, #000 35%, #000 65%, transparent 65%);
+}
+
+/* .meme_block:hover {
+    background: url('https://raw.githubusercontent.com/Mireille0000/cssBayan/gh-pages/cssBayan/LOTR.jpg');
+} */
+
+.meme_1 {
+    /* display: none; */
     width: 220px;
     height: 290px;
 }
-/* 
-.meme_block:hover {
-    background-image: LOTR.img;
-} */
+
+button:checked {
+
+}

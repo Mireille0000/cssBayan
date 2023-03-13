@@ -1,13 +1,67 @@
-.meme1, .meme2, .meme3, .meme4 {
-    /* display: flex; */
+
+/* @media (max-width="1440") {
+    body {
+        text-align: center;
+    }
+} */
+
+html {
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+/* could be better */
+.css_bayan {
+    margin: 0 70px;
+    /* max-width: 75%; */
+    position: relative;
+   
+    justify-content: center;
+    align-items: center; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh;
+
+    font-family: 'Verdana', sans-serif;
+    /* display: flex;
+    align-items:baseline;
+    justify-content: space-between; */
+}
+/* could be better */
+
+main {
+    color: blue;
+}
+
+main:hover {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.meme_option {
+    display: flex;
     justify-content: space-between;
     cursor: pointer;
+}
+
+.meme1, .meme2, .meme3, .meme4 {
+    justify-content: left;
 }
 
 .plus {
     width: 15px;
 	height: 15px;
 	background: linear-gradient(to bottom, transparent 35%, #000 35%, #000 65%, transparent 65%), linear-gradient(to right, transparent 35%, #000 35%, #000 65%, transparent 65%);
+    margin-top: 20px;
 }
 
 /* .meme_block:hover {
@@ -18,8 +72,4 @@
     /* display: none; */
     width: 220px;
     height: 290px;
-}
-
-button:checked {
-
 }
